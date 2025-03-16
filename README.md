@@ -12,3 +12,17 @@ AI 웨어러블 기반의 운동 분석 솔루션
 - **API 통신 20%** 
 - **Firebase 20%**  
 - **Bluetooth 통신 40%**
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="images/dashboard.png" width="300">
+  <img src="images/log.png" width="300">
+</div>
+
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="images/st.png" width="300">
+  <img src="images/ft.png" width="300">
+  <img src="images/ft2.png" width="300">
+  <img src="images/et.png" width="300">
+  <img src="images/et2.png" width="300">
+</div>
