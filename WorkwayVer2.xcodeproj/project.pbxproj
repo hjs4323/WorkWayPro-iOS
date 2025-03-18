@@ -27,8 +27,6 @@
 		047607C22CCB6ACC00560F8B /* BTEditMuscleName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047607C12CCB6ACC00560F8B /* BTEditMuscleName.swift */; };
 		048D53ED2C47D8A800600C9F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D53EC2C47D8A800600C9F /* Extensions.swift */; };
 		048D53EF2C47D8ED00600C9F /* PacketDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D53EE2C47D8ED00600C9F /* PacketDecode.swift */; };
-		04B4D9792CA80671000457E2 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4D9782CA80671000457E2 /* TestView.swift */; };
-		04B4D97B2CA807EE000457E2 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4D97A2CA807EE000457E2 /* Test2.swift */; };
 		04C0999D2CA26B8200F5A5EB /* ForceUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0999C2CA26B8200F5A5EB /* ForceUpdateViewModel.swift */; };
 		04C0999F2CA281CD00F5A5EB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 04C0999E2CA281CD00F5A5EB /* FirebaseAnalytics */; };
 		04C099A12CA281CD00F5A5EB /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 04C099A02CA281CD00F5A5EB /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -45,7 +43,6 @@
 		04E13C8C2C352677007E6AA6 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 04E13C8B2C352677007E6AA6 /* FirebaseRemoteConfig */; };
 		04E13C902C352677007E6AA6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 04E13C8F2C352677007E6AA6 /* FirebaseStorage */; };
 		04E13C922C352677007E6AA6 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 04E13C912C352677007E6AA6 /* FirebaseStorageCombine-Community */; };
-		04E13C942C3526D4007E6AA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E13C932C3526D4007E6AA6 /* GoogleService-Info.plist */; };
 		04E13C972C352987007E6AA6 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 04E13C962C352987007E6AA6 /* KakaoSDK */; };
 		04E13C992C352987007E6AA6 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 04E13C982C352987007E6AA6 /* KakaoSDKAuth */; };
 		04E13C9B2C352987007E6AA6 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 04E13C9A2C352987007E6AA6 /* KakaoSDKCert */; };
@@ -140,11 +137,8 @@
 		047607C12CCB6ACC00560F8B /* BTEditMuscleName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTEditMuscleName.swift; sourceTree = "<group>"; };
 		048D53EC2C47D8A800600C9F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		048D53EE2C47D8ED00600C9F /* PacketDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketDecode.swift; sourceTree = "<group>"; };
-		04B4D9782CA80671000457E2 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
-		04B4D97A2CA807EE000457E2 /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
 		04C0999C2CA26B8200F5A5EB /* ForceUpdateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceUpdateViewModel.swift; sourceTree = "<group>"; };
 		04E13C712C351E0C007E6AA6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		04E13C932C3526D4007E6AA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04E51E0B2C351ADC00357FE5 /* WorkwayVer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkwayVer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E51E0E2C351ADC00357FE5 /* WorkwayVer2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkwayVer2App.swift; sourceTree = "<group>"; };
 		04E51E102C351ADC00357FE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -285,15 +279,6 @@
 			path = HttpRequest;
 			sourceTree = "<group>";
 		};
-		04B4D9772CA80661000457E2 /* TestView */ = {
-			isa = PBXGroup;
-			children = (
-				04B4D9782CA80671000457E2 /* TestView.swift */,
-				04B4D97A2CA807EE000457E2 /* Test2.swift */,
-			);
-			path = TestView;
-			sourceTree = "<group>";
-		};
 		04E13C6B2C351D6A007E6AA6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -320,7 +305,6 @@
 				29730DFD2C490DCA00429A32 /* WorkwayVer2-Info.plist */,
 				292037312C3791A500A58920 /* Data.Source */,
 				04E13C712C351E0C007E6AA6 /* .gitignore */,
-				04E13C932C3526D4007E6AA6 /* GoogleService-Info.plist */,
 				04E13C6B2C351D6A007E6AA6 /* Model */,
 				04E51E0D2C351ADC00357FE5 /* Presentation */,
 				043B20552C3FD8F700C4B1AB /* Utils */,
@@ -339,7 +323,6 @@
 		04E51E0D2C351ADC00357FE5 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				04B4D9772CA80661000457E2 /* TestView */,
 				294DD6DC2C3D363E00829C4F /* Main */,
 				2995883F2C44378100B3CD22 /* Trainee */,
 				297B30842C40E85C00742569 /* Log */,
@@ -682,7 +665,6 @@
 				292037302C3790A600A58920 /* Pretendard-SemiBold.otf in Resources */,
 				2920372E2C3790A600A58920 /* Pretendard-Medium.otf in Resources */,
 				04E13C722C351E0C007E6AA6 /* .gitignore in Resources */,
-				04E13C942C3526D4007E6AA6 /* GoogleService-Info.plist in Resources */,
 				04E51E132C351ADE00357FE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -731,7 +713,6 @@
 				294DD6DB2C3D265500829C4F /* FtReport.swift in Sources */,
 				0437EF832C76013C008193C0 /* LogHomeTab.swift in Sources */,
 				2922B3652C941077002B7A44 /* BtReport.swift in Sources */,
-				04B4D9792CA80671000457E2 /* TestView.swift in Sources */,
 				04C0999D2CA26B8200F5A5EB /* ForceUpdateViewModel.swift in Sources */,
 				294A6ED42C64B01A00775AB3 /* AttachClip.swift in Sources */,
 				294DD6DB2C3D265500829C4F /* FtReport.swift in Sources */,
@@ -767,7 +748,6 @@
 				048D53ED2C47D8A800600C9F /* Extensions.swift in Sources */,
 				043B205A2C3FDB3400C4B1AB /* BluetoothViewModel.swift in Sources */,
 				04E51E0F2C351ADC00357FE5 /* WorkwayVer2App.swift in Sources */,
-				04B4D97B2CA807EE000457E2 /* Test2.swift in Sources */,
 				298169952C632F71003FAC7B /* MainList.swift in Sources */,
 				04FCA0382C50B575003DD361 /* FbStore.swift in Sources */,
 				043B205F2C41027000C4B1AB /* HttpRequest.swift in Sources */,
